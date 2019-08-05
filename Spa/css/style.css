@@ -1,0 +1,196 @@
+@media all and (max-width: 480px) {
+    body {
+        background-image: url('../images/login/background.png');
+        padding-top: 50px;
+    }
+    .logo {
+        position: relative;
+        margin: 0 auto;
+        width: 100%;
+        padding-bottom: 100px;
+    }
+    .logo img {
+        position: absolute;
+        margin: auto;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+    .form1 {
+        position: relative;
+        margin: 10px auto;
+        width: 100%;
+    }
+}
+
+form {
+    position: absolute;
+    width: 80%;
+    height: 80%;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+form h1 {
+    padding: 20px;
+    margin-top: 25px;
+    margin-bottom: 30px;
+    FONT-SIZE: 25px;
+    font-weight: bold;
+    text-align: center;
+    color: #fff;
+}
+
+.inputwithicon input[type=text] {
+    padding-left: 35px;
+}
+
+.inputwithicon input[type=password] {
+    padding-left: 35px;
+}
+
+.inputwithicon input[type=email] {
+    padding-left: 35px;
+}
+
+.inputwithicon {
+    position: relative;
+}
+
+.inputwithicon i {
+    position: absolute;
+    font-size: 20px;
+    left: 0;
+    top: 0;
+    padding: 12px 0 10px 15px;
+    transition: .3s;
+    color: #fff;
+}
+
+input {
+    margin: 10px;
+    width: 95%;
+    display: block;
+    border: none;
+    padding: 10px;
+    background: #74808c;
+    color: #000;
+}
+
+input:focus,
+input:valid {
+    box-shadow: none;
+    outline: none;
+    background: #fff;
+}
+
+input:focus::-webkit-input-placeholder,
+input:valid::-webkit-input-placeholder {
+    color: #fff;
+    font-size: 13px;
+    font-weight: bold;
+    transform: translateY(-20px);
+    visibility: visible !important;
+}
+
+.btnicon {
+    position: relative;
+}
+
+.btnicon i {
+    position: absolute;
+    font-size: 25px;
+    right: 50px;
+    top: 15px;
+    padding: 5px;
+    transition: .3s;
+    color: #04f80f;
+}
+
+button {
+    margin: 10px;
+    width: 95%;
+    text-align: center;
+    border: none;
+    background: red;
+    cursor: pointer;
+    padding: 10px;
+    color: white;
+}
+
+button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 6px 0 rgba(0, 0, 0, 0.2);
+}
+
+.forgot {
+    text-align: right;
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.forgot a {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.forgot a:hover {
+    color: #e61c39;
+    text-decoration: underline;
+}
+
+.register {
+    font-size: 14px;
+    text-align: center;
+    margin: 80px 0px 20px 0px;
+    color: #fff;
+}
+
+.register a {
+    color: red;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.copyright p {
+    color: #34d391;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.register1 {
+    font-size: 14px;
+    text-align: center;
+    margin: 10px 0px 0px 0px;
+    color: #fff;
+}
+
+.registersh1 {
+    padding: 0;
+    margin-top: 0;
+}
+
+.register1 a {
+    color: red;
+    text-decoration: none;
+}
+
+::-webkit-input-placeholder {
+    color: #fff;
+}
+
+ :-moz-placeholder {
+    color: #fff;
+}
+
+ ::-moz-placeholder {
+    color: #fff;
+}
+
+ :-ms-input-placeholder {
+    color: #fff;
+}
